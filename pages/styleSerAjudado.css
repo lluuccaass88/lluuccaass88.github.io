@@ -1,0 +1,199 @@
+/*Banner header*/
+#banner-header{
+    background-size: 34%;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    background-image: url("../images/undraw_personal_email_t7nw.svg"); 
+    background-repeat:no-repeat;
+    background-position: center center;
+    margin-bottom: 5%;
+}
+
+header{
+    background-color: white;
+}
+
+/*Formulario*/
+#container_form{
+    background-color: rgb(251, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 60%;
+    margin-left:2% ;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+
+input{
+    border-radius: 30px;
+    border: 2px solid rgb(204, 68, 68);
+    height:22px;
+    font-size: 15px;
+}
+
+#nome{
+    width: 80%;
+}
+
+.lado_a_lado{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+#data{
+    margin-right: 2%;
+    margin-left: 0.5%;
+    width: 25%;
+}
+
+#numero{
+    margin-left: 0.5%;
+    width: 30%;
+}
+
+#email{
+    width: 50%;
+}
+
+#rua{
+    margin-right: 2%;
+    margin-left: 0.5%;
+    width: 35%;
+}
+
+#numero_casa{
+    margin-left: 0.5%;
+    width: 15%;
+    margin-right: 2%;
+}
+
+#bairro{
+    margin-left: 0.5%;
+    width: 35%;
+    margin-right: 4%;
+}
+
+#pagamento{
+    margin-bottom: 2%;
+    width: 85%;
+}
+
+textarea{
+    border: 2px solid rgb(204, 68, 68);
+    width: 95%;
+    height:162px;
+    border-radius: 10px;
+}
+
+#btn-env{
+    font-size: 20px;
+   padding-bottom: 30px;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+/*Tela de 900px*/
+@media only screen and (max-width: 900px) {
+    #banner-header{
+        height: 300px;
+    }
+
+}
+
+/*Tela de 600px*/
+@media only screen and (max-width: 600px) {
+    form{
+        width: 80%;
+    }
+
+}
+
+/*Tela de 500px*/
+@media only screen and (max-width: 500px) {
+    #banner-header{
+        background-size: 42%;
+        height: 200px;
+    }
+
+    #nome{
+        width: 90%;
+    }
+
+    #email{
+        width: 90%;
+    }
+
+    #data{
+        width: 35%;
+    }
+
+    #numero{
+        width: 40%;
+    }
+
+    #bairro{
+        width: 40%;
+    }
+
+    #rua{
+        width: 40%;
+    }
+
+    #numero_casa{
+        width: 20%;
+    }
+
+    .lado_a_lado{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        padding-left: -2%;
+        padding-right: 2%;
+    }
+}
+
+/*Tela de 350px*/
+@media only screen and (max-width: 350px) {
+    #banner-header{
+        background-size: 60%;
+        height: 200px;
+    }
+
+    #nome{
+        width: 95%;
+    }
+
+    #email{
+        width: 95%;
+    }
+
+    #data{
+        width: 44%;
+    }
+
+    #numero{
+        width: 50%;
+    }
+
+    #bairro{
+        width: 65%;
+    }
+
+    #rua{
+        width: 65%;
+    }
+
+    #numero_casa{
+        width: 25%;
+    }
+}
