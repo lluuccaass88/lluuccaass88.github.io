@@ -107,7 +107,7 @@ h2{
 /*Footer*/
 footer{
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #E5243B;
 }
 
@@ -117,21 +117,15 @@ footer{
     height: 80%;
 }
 
-footer span{
-    font-size: 10px;
-    margin-left: 5%;
-    color: white;
-}
-
-footer span a{
-    color: white;
-}
-
 footer p{
     text-align: center;
     color: white;
 }
 
+footer a{
+    text-decoration: none;
+    color: blue;
+}
 
 /*Tela de 1000px*/
 @media only screen and (max-width: 1030px) {
