@@ -1,0 +1,43 @@
+#main{
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+    background-color: #FFE8E8;;
+}
+
+#main img{
+    width: 20%;
+    border-radius: 30%;
+    margin: 2%;
+    float: left;
+}
+
+#nome{
+    padding-top: 3%;
+}
+
+#main h2{
+    margin-left: 2%;
+}
+
+#main p{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -26px;
+}
+
+/*Tela de 700px*/
+@media only screen and (max-width: 700px) {
+    #main img{
+        width: 30%;
+        border-radius: 30%;
+        margin: 2% 35% 2% 35%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    #main img{
+        width: 40%;
+    }
+}
+    
